@@ -628,7 +628,7 @@
   }
 
   .hero_card_row{
-    @apply border-t-[1px] border-solid border-badge bg-badge flex flex-row p-[24px] rounded-[24px] w-[368px];
+    @apply border-t-[1px] border-solid border-badge bg-badge flex flex-row p-[24px] rounded-[24px] md:w-[368px] w-full;
   }
 
   .hero_card_title{

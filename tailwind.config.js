@@ -33,6 +33,10 @@ module.exports = {
         albert_sans: ["Albert Sans", "sans-serif"],
       },
     },
+    screens: {
+      md: "1200px",
+    },
   },
+
   plugins: [],
 };

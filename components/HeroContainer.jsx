@@ -3,7 +3,7 @@ import { BsGithub, BsInstagram, BsMedium, BsTwitter } from "react-icons/bs";
 
 const HeroContainer = () => {
   return (
-    <div className="flex flex-row space-x-[16px] max-w-[1200px] px-[32px] py-[16px]">
+    <div className="flex md:flex-row flex-col md:space-x-[16px] md:space-y-[0] space-y-[16px] max-w-[1200px] px-[32px] py-[16px]">
       <div className="flex-1 hero_card flex-col gap-[20px] group">
         <div className="flex flex-row items-start justify-between">
           <img
@@ -13,7 +13,7 @@ const HeroContainer = () => {
           />
 
           <img
-            className="w-[48px] h-[48px] mr-[8px] group-hover:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px]"
+            className="w-[48px] h-[48px] group-hover:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px]"
             src="/assets/arrow.svg"
             alt="arrow"
           />
@@ -39,11 +39,11 @@ const HeroContainer = () => {
           <img
             src="/assets/sparkle.svg"
             alt="sparkle"
-            className=" w-[48px] h-[48px] mr-[8px] group-hover/card1:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px] "
+            className=" w-[48px] h-[48px] group-hover/card1:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px] "
           />
         </div>
 
-        <ul className="flex flex-row gap-[16px]">
+        <ul className="flex flex-row justify-between md:justify-start gap-[16px]">
           <li className="hero_card_button">
             <BsTwitter className="w-[32px] h-[32px] fill-hero_button_icon" />
           </li>
@@ -70,7 +70,7 @@ const HeroContainer = () => {
           <img
             src="/assets/world.svg"
             alt="sparkle"
-            className=" w-[48px] h-[48px] mr-[8px] group-hover/card2:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px] "
+            className=" w-[48px] h-[48px] group-hover/card2:-translate-x-3 transition-all duration-500 ease-in-out mt-[3px] "
           />
         </div>
       </div>
