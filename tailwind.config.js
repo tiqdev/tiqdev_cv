@@ -10,13 +10,19 @@ module.exports = {
       backgroundColor: {
         primary: "#0F0F0F",
         secondary: "#E1AE61",
+        secondary_hover: "#333333",
         badge: "#1a1a1a",
         badge_hover: "#292929",
       },
       textColor: {
         primary: "#0F0F0F",
         secondary: "#E1AE61",
+        secondary_hover: "#333333",
         badge: "#848484",
+        grey: "#525252",
+      },
+      fill: {
+        hero_button_icon: "#858585",
       },
       borderColor: {
         badge: "#292929",
@@ -24,6 +30,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        albert_sans: ["Albert Sans", "sans-serif"],
       },
     },
   },

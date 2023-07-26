@@ -6,8 +6,8 @@ const Brand = () => {
       <div className="brand_container">
         <span className="text-secondary">.</span> tiqdev
       </div>
-      <div className="badge font-inter font-[300] tracking-[0.4 px]">
-        Portfolio
+      <div className="badge mt-[2px]">
+        <span className="font-[300] tracking-[0.4px]">Portfolio</span>
       </div>
     </Link>
   );
