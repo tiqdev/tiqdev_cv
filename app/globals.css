@@ -3,25 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer components{
+  .navbar_brand{ 
+    @apply text-[24px] font-[400] leading-[32px] text-white  -tracking-[0.36px] cursor-pointer flex flex-row gap-[10px];
+  }
+
+  .brand_container{
+    @apply flex flex-row items-end justify-end;
+  }
+
+  .badge{
+    @apply border-solid border-r-[1px] border-t-[1px] border-badge rounded-[8px] bg-badge text-[12px] px-[10px] py-[4px] h-min text-badge leading-[16px]
+  }
+
+  .nav_item{
+    @apply border-t-[1px] border-solid border-badge bg-badge flex items-center justify-center  px-[16px] py-[6px] h-min text-white rounded-[24px] font-inter font-[400] hover:bg-badge_hover hover:border-badge_hover transition-colors duration-500 cursor-pointer;
+  }
+
+  .nav_link{
+    @apply text-[14px] leading-[18px] font-normal tracking-[0.55px]
   }
 }
 
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #0F0F0F;
 }
