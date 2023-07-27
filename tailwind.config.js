@@ -31,6 +31,7 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         albert_sans: ["Albert Sans", "sans-serif"],
+        caveat: ["Caveat", "cursive"],
       },
     },
     screens: {

@@ -3,7 +3,7 @@ import { BsGithub, BsInstagram, BsMedium, BsTwitter } from "react-icons/bs";
 
 const HeroContainer = () => {
   return (
-    <div className="flex md:flex-row flex-col md:space-x-[16px] md:space-y-[0] space-y-[16px] max-w-[1200px] px-[32px] py-[16px]">
+    <div className="flex md:flex-row flex-col md:space-x-[16px] md:space-y-[0] space-y-[16px] max-w-[1200px] px-[32px] py-[16px] pb-[32px]">
       <div className="flex-1 hero_card flex-col gap-[20px] group">
         <div className="flex flex-row items-start justify-between">
           <img
