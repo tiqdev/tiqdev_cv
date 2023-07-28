@@ -1,41 +1,54 @@
+"use client";
+import { useEffect, useRef } from "react";
 import PortfolioItem from "./PortfolioItem";
 import SectionTitle from "./SectionTitle";
+import { motion, useInView } from "framer-motion";
 
 const PortfolioContainer = () => {
-  return (
-    <div className="flex flex-col items-center justify-center max-w-[1200px] space-y-[48px] md:px-[56px] px-[32px] py-[32px] pb-[48px]">
-      <SectionTitle
-        title="Product Design Showcase"
-        subtitle="PORTFOLIO SECTION"
-        icon="portfolio_icon"
-      />
+  const scrollRef = useRef(null);
+  const isInView = useInView(scrollRef);
 
-      <div className="flex flex-row flex-wrap gap-[24px]">
-        <PortfolioItem
-          title="Clashub NFT Game"
-          role="Web3 Developer"
-          link="#"
-          image="p_1"
+  return (
+    <div ref={scrollRef}>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="flex flex-col items-center justify-center max-w-[1200px] space-y-[48px] md:px-[56px] px-[32px] py-[32px] pb-[48px]"
+      >
+        <SectionTitle
+          title="Product Design Showcase"
+          subtitle="PORTFOLIO SECTION"
+          icon="portfolio_icon"
         />
-        <PortfolioItem
-          title="LollyLoop NFT Col."
-          role="Frontend Developer"
-          link="#"
-          image="p_2"
-        />
-        <PortfolioItem
-          title="Coibot"
-          role="Mobile and Frontend Developer"
-          link="#"
-          image="p_3"
-        />
-        <PortfolioItem
-          title="The Hatch Game"
-          role="Frontend Developer"
-          link="#"
-          image="p_4"
-        />
-      </div>
+
+        <div className="flex flex-row flex-wrap gap-[24px]">
+          <PortfolioItem
+            title="Clashub NFT Game"
+            role="Web3 Developer"
+            link="#"
+            image="p_1"
+          />
+          <PortfolioItem
+            title="LollyLoop NFT Col."
+            role="Frontend Developer"
+            link="#"
+            image="p_2"
+          />
+          <PortfolioItem
+            title="Coibot"
+            role="Mobile and Frontend Developer"
+            link="#"
+            image="p_3"
+          />
+          <PortfolioItem
+            title="The Hatch Game"
+            role="Frontend Developer"
+            link="#"
+            image="p_4"
+          />
+        </div>
+      </motion.div>
     </div>
   );
 };
