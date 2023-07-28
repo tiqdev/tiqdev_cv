@@ -2,6 +2,7 @@ import AboutContainer from "@/components/AboutContainer";
 import Container from "@/components/Container";
 import HeroContainer from "@/components/HeroContainer";
 import PortfolioContainer from "@/components/PortfolioContainer";
+import TestimonialsContainer from "@/components/TestimonialsContianer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <HeroContainer />
         <AboutContainer />
         <PortfolioContainer />
+        <TestimonialsContainer />
       </Container>
     </main>
   );
