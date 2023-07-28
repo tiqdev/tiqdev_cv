@@ -25,7 +25,7 @@ const AboutContainer = () => {
           />
         </div>
         <div className="flex md:flex-row flex-col md:space-x-[32px] md:space-y-0 space-y-[32px]">
-          <div className="max-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex flex-col items-center space-y-[16px] p-[12px] pb-[16px] rounded-[24px] hover:-rotate-3 transition-transform duration-300">
+          <div className="md:max-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex flex-col items-center space-y-[16px] p-[12px] pb-[16px] rounded-[24px] hover:-rotate-3 transition-transform duration-300">
             <img
               src="/assets/m_1.webp"
               alt="sparkle"
@@ -35,8 +35,8 @@ const AboutContainer = () => {
               Daring to redefine boundaries :)
             </span>
           </div>
-          <div className="flex flex-col space-y-[32px] max-w-[308px] w-full">
-            <div className="flex flex-col space-y-[12px] flex-start justify-start ">
+          <div className="flex flex-col space-y-[32px] md:max-w-[308px] w-full md:items-start items-center">
+            <div className="flex flex-col space-y-[12px] md:items-start justify-start  items-center">
               <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-white">
                 Tarık Kaya
               </h3>
