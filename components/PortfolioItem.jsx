@@ -23,7 +23,7 @@ const PortfolioItem = ({ title, role, link, image }) => {
         <img
           src={"/assets/" + image + ".webp"}
           alt="project1"
-          className="object-cover rounded-[12px]"
+          className="object-cover rounded-[12px] bg-grey"
         />
       </div>
     </Link>

@@ -13,6 +13,7 @@ module.exports = {
         secondary_hover: "#333333",
         badge: "#1a1a1a",
         badge_hover: "#292929",
+        grey: "#525252",
       },
       textColor: {
         primary: "#0F0F0F",

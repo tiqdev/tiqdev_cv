@@ -29,7 +29,7 @@ const AboutContainer = () => {
             <img
               src="/assets/m_1.webp"
               alt="sparkle"
-              className="rounded-[8px] aspect-square object-cover"
+              className="rounded-[8px] aspect-square object-cover bg-grey"
             />
             <span className="text-[22px] leading-[28px] text-grey font-caveat font-normal">
               Daring to redefine boundaries :)
