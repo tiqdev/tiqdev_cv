@@ -40,7 +40,7 @@ const AboutContainer = () => {
               <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-white">
                 Tarık Kaya
               </h3>
-              <p className="text-[18px] text-grey leading-[28px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
+              <p className="text-[18px] text-grey md:text-left text-center leading-[28px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
                 I'm Wei Chen, a passionate and experienced product designer,
                 coffee lover, art enthusiast based in Manhattan, NY. With over 7
                 years of expertise in the field, I have dedicated myself to
