@@ -12,28 +12,28 @@ const PortfolioContainer = () => {
 
       <div className="flex flex-row flex-wrap gap-[24px]">
         <PortfolioItem
-          title="Project 1"
-          role="UX/UI Designer"
+          title="Clashub NFT Game"
+          role="Web3 Developer"
           link="#"
-          image="p1"
+          image="p_1"
         />
         <PortfolioItem
-          title="Project 2"
-          role="UX/UI Designer"
+          title="LollyLoop NFT Col."
+          role="Frontend Developer"
           link="#"
-          image="p2"
+          image="p_2"
         />
         <PortfolioItem
-          title="Project 3"
-          role="UX/UI Designer"
+          title="Coibot"
+          role="Mobile and Frontend Developer"
           link="#"
-          image="p3"
+          image="p_3"
         />
         <PortfolioItem
-          title="Project 4"
-          role="UX/UI Designer"
+          title="The Hatch Game"
+          role="Frontend Developer"
           link="#"
-          image="p4"
+          image="p_4"
         />
       </div>
     </div>
