@@ -3,25 +3,10 @@ import { useEffect, useRef } from "react";
 import SectionTitle from "./SectionTitle";
 import { motion, useInView } from "framer-motion";
 import SkillItem from "./SkillItem";
-import { getURLContent } from "@/utils/getOGImage";
 
 const SkillsContainer = () => {
   const scrollRef = useRef(null);
   const isInView = useInView(scrollRef);
-
-  useEffect(() => {
-    let url = "https://codepen.io/tiqdev/pen/BaqRbyq";
-    getURLContent(url).then((htmlContent) => {
-      const imageUrl = getMetadataImage(htmlContent);
-      if (imageUrl) {
-        console.log("Görsel URL:", imageUrl);
-        // Burada görseli kullanabilir veya başka işlemler yapabilirsiniz
-      } else {
-        console.log("Görsel bulunamadı.");
-      }
-    });
-  }, []);
-
   return (
     <div ref={scrollRef}>
       <motion.div
