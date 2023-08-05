@@ -5,7 +5,7 @@ const CodePiecesItem = ({ code }) => {
     <Link
       key={code.id}
       href={code.link}
-      className="md:max-w-[400px] min-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex md:flex-row flex-col-reverse  items-start justify-between p-[24px] rounded-[24px]  gap-[20px] font-inter hover:bg-badge_hover hover:border-badge_hover transition-colors duration-500 cursor-pointer group"
+      className="md:max-w-[400px] min-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex md:flex-row flex-col-reverse  items-start justify-between p-[24px] rounded-[24px] md:gap-[20px] gap-[4px] font-inter hover:bg-badge_hover hover:border-badge_hover transition-colors duration-500 cursor-pointer group"
     >
       <div className="flex flex-col space-y-[12px] md:max-w-[40%] max-w-full">
         <img
