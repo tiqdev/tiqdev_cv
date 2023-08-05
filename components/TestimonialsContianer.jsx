@@ -10,7 +10,7 @@ const TestimonialsContainer = () => {
   const isInView = useInView(scrollRef);
 
   return (
-    <div ref={scrollRef}>
+    <div ref={scrollRef} id="testimonials">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}

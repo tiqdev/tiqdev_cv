@@ -10,7 +10,7 @@ const HeroContainer = () => {
   const isInView = useInView(scrollRef);
 
   return (
-    <div ref={scrollRef}>
+    <div ref={scrollRef} id="home">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -21,8 +21,8 @@ const HeroContainer = () => {
         <div className="flex-1 hero_card flex-col gap-[20px] group">
           <div className="flex flex-row items-start justify-between">
             <img
-              className="w-[80px] h-[80px] overflow-hidden rounded-full"
-              src="/assets/me.webp"
+              className="w-[80px] h-[80px] overflow-hidden rounded-full bg-badge"
+              src="/assets/me.png"
               alt="me"
             />
 

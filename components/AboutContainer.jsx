@@ -9,7 +9,7 @@ const AboutContainer = () => {
   const isInView = useInView(scrollRef);
 
   return (
-    <div ref={scrollRef}>
+    <div ref={scrollRef} id="about">
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ const AboutContainer = () => {
         <div className="flex md:flex-row flex-col md:space-x-[32px] md:space-y-0 space-y-[32px]">
           <div className="md:max-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex flex-col items-center space-y-[16px] p-[12px] pb-[16px] rounded-[24px] hover:-rotate-3 transition-transform duration-300">
             <img
-              src="/assets/m_1.webp"
+              src="/assets/me.png"
               alt="sparkle"
               className="rounded-[8px] aspect-square object-cover bg-grey"
             />

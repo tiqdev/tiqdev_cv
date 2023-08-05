@@ -13,8 +13,9 @@ export default function Home() {
         <HeroContainer />
         <AboutContainer />
         <PortfolioContainer />
-        <TestimonialsContainer />
         <SkillsContainer />
+        <TestimonialsContainer />
+
         <CodePiecesContainer />
       </Container>
     </main>
