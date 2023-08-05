@@ -3,9 +3,9 @@ import Brand from "./Brand";
 
 const Navbar = () => {
   return (
-    <nav className="flex flex-row w-full max-w-[1200px] bg-primary mx-auto items-center justify-start py-[24px] px-[32px]">
+    <nav className="flex flex-row w-full max-w-[1200px] bg-primary mx-auto items-center justify-start py-[24px] px-[32px] ">
       <Brand />
-      <ul className="md:flex flex-row hidden ml-auto gap-[10px] h-[32px] ">
+      <ul className="md:flex flex-row hidden ml-auto gap-[10px] h-[32px] relative z-10 ">
         <Link href="#home" className="nav_link">
           <li className="nav_item">home.</li>
         </Link>
