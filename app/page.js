@@ -1,6 +1,8 @@
 import AboutContainer from "@/components/AboutContainer";
 import CodePiecesContainer from "@/components/CodePiecesContainer";
+import ContactContainer from "@/components/ContactContainer";
 import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 import HeroContainer from "@/components/HeroContainer";
 import PortfolioContainer from "@/components/PortfolioContainer";
 import SkillsContainer from "@/components/SkillsContainer";
@@ -15,8 +17,8 @@ export default function Home() {
         <PortfolioContainer />
         <SkillsContainer />
         <TestimonialsContainer />
-
         <CodePiecesContainer />
+        <Footer />
       </Container>
     </main>
   );

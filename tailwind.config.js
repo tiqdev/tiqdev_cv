@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#0F0F0F",
+        secondary: "#E1AE61",
+        grey: "#525252",
+      },
       backgroundColor: {
         primary: "#0F0F0F",
         secondary: "#E1AE61",
@@ -24,6 +29,7 @@ module.exports = {
       },
       fill: {
         hero_button_icon: "#858585",
+        hero_button_icon_hover: "#E1AE61",
       },
       borderColor: {
         badge: "#292929",

@@ -1,9 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { BsGithub, BsInstagram, BsMedium, BsTwitter } from "react-icons/bs";
+import { BsGithub, BsMedium } from "react-icons/bs";
+import { SiLinkedin } from "react-icons/si";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import MailButton from "./MailButton";
+import Link from "next/link";
 
 const HeroContainer = () => {
   const scrollRef = useRef(null);
@@ -58,17 +60,54 @@ const HeroContainer = () => {
           </div>
 
           <ul className="flex flex-row justify-between md:justify-start gap-[16px]">
-            <li className="hero_card_button">
-              <BsTwitter className="w-[32px] h-[32px] fill-hero_button_icon" />
+            <li>
+              <Link
+                href={"https://github.com/tiqdev"}
+                className="hero_card_button group hover:bg-[#000000]"
+              >
+                <BsGithub className="w-[32px] h-[32px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out" />
+              </Link>
             </li>
-            <li className="hero_card_button">
-              <BsMedium className="w-[32px] h-[32px] fill-hero_button_icon" />
+
+            <li>
+              <Link
+                href={""}
+                className="hero_card_button group hover:bg-[#000000]"
+              >
+                <SiLinkedin className="w-[32px] h-[32px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out" />
+              </Link>
             </li>
-            <li className="hero_card_button">
-              <BsGithub className="w-[32px] h-[32px] fill-hero_button_icon" />
+
+            <li>
+              <Link
+                href={""}
+                className="hero_card_button group hover:bg-[#000000]"
+              >
+                <svg
+                  className="w-[36px] h-[36px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out"
+                  version="1.1"
+                  id="svg5"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 1668.56 1221.19"
+                >
+                  <g id="layer1" transform="translate(52.390088,-25.058597)">
+                    <path
+                      id="path1009"
+                      d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"
+                    />
+                  </g>
+                </svg>
+              </Link>
             </li>
-            <li className="hero_card_button">
-              <BsInstagram className="w-[32px] h-[32px] fill-hero_button_icon" />
+
+            <li>
+              <Link
+                href={"https://medium.com/@tiqdev"}
+                className="hero_card_button group hover:bg-[#000000]"
+              >
+                <BsMedium className="w-[32px] h-[32px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out" />
+              </Link>
             </li>
           </ul>
 
@@ -96,14 +135,7 @@ const HeroContainer = () => {
             className="w-[56px] h-[56px]"
           />
           <h2 className="hero_card_title text-center">Wanna work together?</h2>
-          <Link
-            className="flex items-center justify-center rounded-[96px] py-[16px] px-[32px] bg-secondary hover:bg-secondary_hover group/button transition-all duration-500 ease-in-out"
-            href="mailto:info@tiqdev.com"
-          >
-            <span className="text-[28px] leading-[36px] text-black -tracking-[0.03em] font-[500] group-hover/button:text-white transition-all duration-500 ease-in-out">
-              info@tiqdev.com
-            </span>
-          </Link>
+          <MailButton link={"info@tiqdev.com"} />
         </div>
       </motion.div>
     </div>
