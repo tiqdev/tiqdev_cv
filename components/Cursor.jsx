@@ -19,7 +19,7 @@ const Cursor = () => {
   return (
     <div
       id="cursor"
-      className="w-[200px] h-[200px] blur-[20px] rounded-full bg-grey opacity-50 fixed z-0 transition-transform duration-500 "
+      className="w-[400px] h-[400px] blur-[100px] rounded-full bg-grey opacity-20 fixed z-0 transition-transform duration-500 "
     ></div>
   );
 };
