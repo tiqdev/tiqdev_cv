@@ -40,12 +40,15 @@ const AboutContainer = () => {
               <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-white">
                 Tarık Kaya
               </h3>
-              <p className="text-[18px] text-grey md:text-left text-center leading-[28px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
-                I'm Wei Chen, a passionate and experienced product designer,
-                coffee lover, art enthusiast based in Manhattan, NY. With over 7
-                years of expertise in the field, I have dedicated myself to
-                creating exceptional user experiences that blend functionality
-                and aesthetics seamlessly.
+              <p className="text-[16px] text-grey md:text-left text-center leading-[22px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
+                I am Tarık KAYA, a 26-year-old Computer Engineering graduate
+                from Anadolu University (2019). I am a passionate and eager
+                software enthusiast with a strong desire to learn about new
+                technologies. For the past two years, I have gained valuable
+                experience in web3 development and crypto technologies while
+                working as a Frontend and Mobile Developer at a leading software
+                development firm. My expertise includes React.js, Next.js,
+                Tailwind CSS, Flutter, and Native Android.
               </p>
             </div>
             <img

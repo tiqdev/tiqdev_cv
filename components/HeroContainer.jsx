@@ -71,7 +71,7 @@ const HeroContainer = () => {
 
             <li>
               <Link
-                href={""}
+                href={"https://www.linkedin.com/in/tar%C4%B1k-kaya-126bb1114/"}
                 className="hero_card_button group hover:bg-[#000000]"
               >
                 <SiLinkedin className="w-[32px] h-[32px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out" />
@@ -80,7 +80,7 @@ const HeroContainer = () => {
 
             <li>
               <Link
-                href={""}
+                href={"https://x.com/tiqdev"}
                 className="hero_card_button group hover:bg-[#000000]"
               >
                 <svg

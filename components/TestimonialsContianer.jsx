@@ -25,35 +25,35 @@ const TestimonialsContainer = () => {
         />
         <div className="flex flex-row flex-wrap gap-[24px]">
           <TestimonialItem
-            name={"Tarık Kaya"}
-            role={"UX Designer • Aurora"}
-            image={"me.webp"}
+            name={"Jane Doe"}
+            role={"Software Developer"}
+            image={"person_1.png"}
             text={
-              "Wei Chen's design prowess is unmatched. His attention to detail and innovative approach have transformed our products into sleek, user-centric experiences."
+              "Tarık is a highly motivated software developer with expertise in Next.js and PWA implementation. His contributions have been vital to our projects, and I highly recommend him for any software development team."
             }
           />
           <TestimonialItem
-            name={"Tarık Kaya"}
-            role={"UX Designer • Aurora"}
-            image={"me.webp"}
+            name={"John Smith"}
+            role={"Software Developer"}
+            image={"person_2.png"}
             text={
-              "Wei Chen's design prowess is unmatched. His attention to detail and innovative approach have transformed our products into sleek, user-centric experiences."
+              "Working with Tarık has been a pleasure; his proficiency in React.js, Flutter, and Native Android has resulted in outstanding applications."
             }
           />
           <TestimonialItem
-            name={"Tarık Kaya"}
-            role={"UX Designer • Aurora"}
-            image={"me.webp"}
+            name={"Karl Johnson"}
+            role={"Software Developer"}
+            image={"person_3.png"}
             text={
-              "Wei Chen's design prowess is unmatched. His attention to detail and innovative approach have transformed our products into sleek, user-centric experiences."
+              "Tarık's enthusiasm for software development is contagious, and his ability to create user-friendly web applications is impressive."
             }
           />
           <TestimonialItem
-            name={"Tarık Kaya"}
-            role={"UX Designer • Aurora"}
-            image={"me.webp"}
+            name={"Sofia Ramsey"}
+            role={"Software Developer"}
+            image={"person_4.png"}
             text={
-              "Wei Chen's design prowess is unmatched. His attention to detail and innovative approach have transformed our products into sleek, user-centric experiences."
+              "As a colleague, I've seen Tarık's commitment to excellence and his valuable knowledge in web3 and crypto technologies."
             }
           />
         </div>

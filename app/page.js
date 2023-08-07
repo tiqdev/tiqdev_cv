@@ -9,6 +9,18 @@ import PortfolioContainer from "@/components/PortfolioContainer";
 import SkillsContainer from "@/components/SkillsContainer";
 import TestimonialsContainer from "@/components/TestimonialsContianer";
 
+import { openGraphImage } from "./shared-metadata";
+
+export const metadata = {
+  title: "Tarık KAYA",
+  description: "Tarık KAYA's personal website",
+  url: "https://tiqdev.com",
+  openGraph: {
+    ...openGraphImage,
+    title: "Tarık KAYA",
+  },
+};
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-primary relative">
