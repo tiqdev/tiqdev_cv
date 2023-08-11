@@ -20,7 +20,7 @@ const Footer = () => {
         >
           <ContactContainer />
           <span className="text-[12px] font-[500] text-badge uppercase text-center leading-[16px] tracking-[0.04em]">
-            © 2023 tiqdev. All rights reserved.
+            © 2023 tiqdev 💛. All rights reserved.
           </span>
         </motion.div>
       </div>
