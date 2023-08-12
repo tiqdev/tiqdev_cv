@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Brand = () => {
   return (
-    <Link className="navbar_brand relative z-10" href="#">
+    <Link className="navbar_brand relative z-10" href="/">
       <div className="brand_container">
         <span className="text-secondary">.</span> tiqdev
       </div>
