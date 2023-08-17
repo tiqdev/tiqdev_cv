@@ -10,6 +10,7 @@ import SkillsContainer from "@/components/SkillsContainer";
 import TestimonialsContainer from "@/components/TestimonialsContianer";
 
 import { openGraphImage } from "./shared-metadata";
+import DynamicIsland from "@/components/DynamicIsland";
 
 export const metadata = {
   title: "Tarık KAYA",
@@ -25,6 +26,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-primary relative">
       <Cursor />
+      <DynamicIsland />
       <Container>
         <HeroContainer />
         <AboutContainer />

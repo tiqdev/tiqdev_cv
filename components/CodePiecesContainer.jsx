@@ -90,7 +90,7 @@ const CodePiecesContainer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[18px]">
           {codePieces.map((item) => {
-            return <CodePiecesItem code={item} />;
+            return <CodePiecesItem code={item} key={Math.random()} />;
           })}
         </div>
       </motion.div>

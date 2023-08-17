@@ -28,7 +28,7 @@ const PortfolioItem = ({ title, role, link, image }) => {
               d="M48 23.9999L0 23.9999M48 23.9999C36.2501 23.9999 26.4169 32.7923 23.9189 44.5713M48 23.9999C36.2501 23.9999 26.4169 15.2075 23.9189 3.42847"
               className="w-[48px] h-[48px] md:flex hidden
               stroke-grey group-hover:stroke-white transition-all duration-500"
-              stroke-linejoin="round"
+              strokeLinejoin="round"
             />
           </svg>
         </div>
