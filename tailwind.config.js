@@ -11,6 +11,22 @@ module.exports = {
         primary: "#0F0F0F",
         secondary: "#E1AE61",
         grey: "#525252",
+
+        'equator': {
+          '50': '#fcf9f0',
+          '100': '#f9f1db',
+          '200': '#f2dfb6',
+          '300': '#e9c988',
+          '400': '#e1ae61',
+          '500': '#d89137',
+          '600': '#ca7a2c',
+          '700': '#a86026',
+          '800': '#864d26',
+          '900': '#6d4021',
+          '950': '#3a1f10',
+        },
+
+
       },
       backgroundColor: {
         primary: "#0F0F0F",
@@ -39,6 +55,10 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
         albert_sans: ["Albert Sans", "sans-serif"],
         caveat: ["Caveat", "cursive"],
+      },
+      animation: {
+        "quiet": "quiet 1s linear infinite",
+        "loud": "loud 1s linear infinite",
       },
     },
     screens: {
