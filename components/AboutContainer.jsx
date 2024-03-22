@@ -27,7 +27,7 @@ const AboutContainer = () => {
         <div className="flex md:flex-row flex-col md:space-x-[32px] md:space-y-0 space-y-[32px]">
           <div className="md:max-w-[320px] w-full border-t-[1px] border-solid border-badge bg-badge flex flex-col items-center space-y-[16px] p-[12px] pb-[16px] rounded-[24px] hover:-rotate-3 transition-transform duration-300">
             <img
-              src="/assets/me.png"
+              src="/assets/me.jpeg"
               alt="sparkle"
               className="rounded-[8px] aspect-square object-cover bg-grey"
             />
@@ -41,7 +41,7 @@ const AboutContainer = () => {
                 Tarık Kaya
               </h3>
               <p className="text-[16px] text-grey md:text-left text-center leading-[22px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
-                I am Tarık KAYA, a 26-year-old Computer Engineering graduate
+                I am Tarık KAYA, a 27-year-old Computer Engineering graduate
                 from Anadolu University (2019). I am a passionate and eager
                 software enthusiast with a strong desire to learn about new
                 technologies. For the past two years, I have gained valuable

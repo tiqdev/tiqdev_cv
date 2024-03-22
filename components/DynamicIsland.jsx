@@ -82,21 +82,3 @@ const DynamicIsland = () => {
 };
 
 export default DynamicIsland;
-
-/*
-
- <motion.div
-              initial={{ opacity: 1 }}
-              animate={{
-                opacity: isActive ? 0 : 1,
-              }}
-              exit={{ opacity: 1 }}
-              className="ml-auto"
-            >
-              {isPlaying ? (
-                <BiPauseCircle className="text-white w-[24px] h-[24px] " />
-              ) : (
-                <BiPlayCircle className="text-white w-[24px] h-[24px] " />
-              )}
-            </motion.div>
-            */

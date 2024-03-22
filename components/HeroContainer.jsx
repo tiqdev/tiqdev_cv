@@ -1,6 +1,7 @@
 "use client";
 
 import { BsGithub, BsMedium } from "react-icons/bs";
+import { FaCodepen } from "react-icons/fa6";
 import { SiLinkedin } from "react-icons/si";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
@@ -24,7 +25,7 @@ const HeroContainer = () => {
           <div className="flex flex-row items-start justify-between">
             <img
               className="w-[80px] h-[80px] overflow-hidden rounded-full bg-badge"
-              src="/assets/me.png"
+              src="/assets/me.jpeg"
               alt="me"
             />
 
@@ -80,24 +81,10 @@ const HeroContainer = () => {
 
             <li>
               <Link
-                href={"https://x.com/tiqdev"}
+                href={"https://codepen.io/tiqdev"}
                 className="hero_card_button group hover:bg-[#000000]"
               >
-                <svg
-                  className="w-[36px] h-[36px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out"
-                  version="1.1"
-                  id="svg5"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 1668.56 1221.19"
-                >
-                  <g id="layer1" transform="translate(52.390088,-25.058597)">
-                    <path
-                      id="path1009"
-                      d="M283.94,167.31l386.39,516.64L281.5,1104h87.51l340.42-367.76L984.48,1104h297.8L874.15,558.3l361.92-390.99h-87.51l-313.51,338.7l-253.31-338.7H283.94z M412.63,231.77h136.81l604.13,807.76h-136.81L412.63,231.77z"
-                    />
-                  </g>
-                </svg>
+                <FaCodepen className="w-[32px] h-[32px] fill-hero_button_icon group-hover:fill-[#fff] transition-all duration-500 ease-in-out" />
               </Link>
             </li>
 
