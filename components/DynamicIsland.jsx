@@ -1,7 +1,7 @@
 "use client";
 
 import { useWindowSize } from "react-use";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { BiPauseCircle, BiPlayCircle } from "react-icons/bi";
 
@@ -11,7 +11,20 @@ const DynamicIsland = () => {
 
   const { width } = useWindowSize();
   const isMobile = width < 1200;
-  const isTooSmall = width < 580;
+
+  // Audio elementini referans olarak tanımla
+  const audioRef = useRef(null);
+
+  const handlePlayPause = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
 
   return (
     <>
@@ -25,7 +38,9 @@ const DynamicIsland = () => {
             }}
             exit={{ height: 36 }}
             transition={{ duration: 0.3, type: "spring", stiffness: 100 }}
-            onClick={() => setIsActive(!isActive)}
+            onClick={() => {
+              setIsActive(!isActive);
+            }}
             className={`fixed top-[78px] left-1/2 -translate-x-1/2 bg-[#080808] rounded-[32px] z-20 flex flex-row justify-start items-center p-[8px] gap-[16px]`}
           >
             <motion.img
@@ -34,6 +49,10 @@ const DynamicIsland = () => {
                 height: isActive ? 84 : 24,
                 width: isActive ? 84 : 24,
                 borderRadius: isActive ? 24 : 24,
+              }}
+              onClick={(e)=> {
+                e.preventDefault();                
+                if (isActive) handlePlayPause(); 
               }}
               exit={{ height: 24, width: 24, borderRadius: 24 }}
               transition={{ duration: 0.3 }}
@@ -77,6 +96,9 @@ const DynamicIsland = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Audio elementini buraya ekleyin */}
+      <audio ref={audioRef} src="/mp3/TheWinter.mp3" />
     </>
   );
 };
