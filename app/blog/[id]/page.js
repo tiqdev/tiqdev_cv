@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
+import { openGraphImage } from "../../shared-metadata";
 
 // JSON dosyasının yolunu belirtiyoruz
 const JSON_FILE_PATH = path.join(process.cwd(), "data", "blog.json");
@@ -59,7 +60,8 @@ export async function generateMetadata({ params }) {
     title: post ? post.title["__cdata"] : "Blog Post",
     description: post ? post.title["__cdata"] : "A blog post description",
     openGraph: {
-      images: ["/assets/og-default.png"],
+      ...openGraphImage,
+      title: post ? post.title["__cdata"] : "Blog Post",
     },
     author: "Tarık Kaya",
   };
