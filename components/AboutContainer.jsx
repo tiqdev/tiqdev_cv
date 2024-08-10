@@ -15,7 +15,7 @@ const AboutContainer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center max-w-[1200px] md:space-y-[48px] space-y-[24px] px-[32px] py-[32px] pb-[48px]"
+        className="flex flex-col items-center justify-center max-w-[1200px] md:space-y-[48px] space-y-[24px] px-[16px] py-[32px] pb-[48px]"
       >
         <div className="">
           <SectionTitle

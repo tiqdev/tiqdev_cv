@@ -1,7 +1,7 @@
 "use client";
 import { useRef } from "react";
 import SectionTitle from "./SectionTitle";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 import CodePiecesItem from "./CodePiecesItem";
 
 const CodePiecesContainer = () => {
@@ -33,7 +33,7 @@ const CodePiecesContainer = () => {
       id: 4,
       title: "Scroll To Explore",
       link: "https://codepen.io/tiqdev/full/gOBgZom",
-      image: "cp2.png",
+      image: "cp4.png",
       site: "codepen.io",
     },
     {
@@ -71,6 +71,48 @@ const CodePiecesContainer = () => {
       image: "cp9.jpeg",
       site: "codepen.io",
     },
+    {
+      id: 10,
+      title: "Valorant Card Generator",
+      link: "https://valocards.vercel.app/",
+      image: "cp10.png",
+      site: "valocards.vercel.app",
+    },
+    {
+      id: 11,
+      title: "GSAP Scroll Animation",
+      link: "https://gsapgabrielcontassot.vercel.app/",
+      image: "cp11.png",
+      site: "tiqdev.com",
+    },
+    {
+      id: 12,
+      title: "GSAP Reveal Animation",
+      link: "https://gsapreveal.vercel.app/",
+      image: "cp12.png",
+      site: "tiqdev.com",
+    },
+    {
+      id: 13,
+      title: "2048 Game",
+      link: "https://game.tiqdev.com/",
+      image: "cp13.jpeg",
+      site: "tiqdev.com",
+    },
+    {
+      id: 14,
+      title: "Movie Search",
+      link: "https://tiqdevmovie.vercel.app/",
+      image: "cp14.jpeg",
+      site: "tiqdevmovie.vercel.app",
+    },
+    {
+      id: 15,
+      title: "Kur'an-ı Kerim",
+      link: "https://kuranmeali.vercel.app/",
+      image: "cp15.png",
+      site: "kuranmeali.vercel.app",
+    },
   ];
 
   return (
@@ -80,7 +122,7 @@ const CodePiecesContainer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center mx-auto space-y-[48px] md:px-[56px] px-[32px] py-[32px] pb-[48px]"
+        className="flex flex-col items-center justify-center mx-auto space-y-[48px] md:px-[56px] px-[16px] py-[32px] pb-[48px]"
       >
         <SectionTitle
           title="Code Enchantments"
@@ -89,8 +131,8 @@ const CodePiecesContainer = () => {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[18px]">
-          {codePieces.map((item) => {
-            return <CodePiecesItem code={item} key={Math.random()} />;
+          {codePieces.slice().reverse().map((item) => {
+            return <CodePiecesItem code={item} key={item.id} />;
           })}
         </div>
       </motion.div>

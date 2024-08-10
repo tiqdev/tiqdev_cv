@@ -14,7 +14,7 @@ const SkillsContainer = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.3 }}
         viewport={{ once: true }}
-        className="flex flex-col items-center justify-center max-w-[1200px] space-y-[48px] md:px-[56px] px-[32px] py-[32px] pb-[48px]"
+        className="flex flex-col items-center justify-center max-w-[1200px] space-y-[48px] md:px-[56px] px-[16px] py-[32px] pb-[48px]"
       >
         <SectionTitle
           title="Skills & Expertise"

@@ -9,18 +9,18 @@ const Footer = () => {
   const isInView = useInView(scrollRef);
 
   return (
-    <footer>
-      <div ref={scrollRef} id="home">
+    <footer className="w-full">
+      <div ref={scrollRef} id="contact">
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
-          className="max-w-[1200px] flex flex-col gap-[24px] md:px-[56px] px-[32px] py-[48px] pb-[32px]"
+          className="max-w-[1200px] flex flex-col gap-[24px] md:px-[56px] px-[16px] py-[48px] pb-[32px] min-w-full"
         >
           <ContactContainer />
           <span className="text-[12px] font-[500] text-badge uppercase text-center leading-[16px] tracking-[0.04em]">
-            © 2023 tiqdev 💛. All rights reserved.
+            © 2024 tiqdev 💛. All rights reserved.
           </span>
         </motion.div>
       </div>

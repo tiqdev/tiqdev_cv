@@ -44,7 +44,7 @@ export default async function BlogList() {
 
   return (
     <div>
-      <div className="flex flex-col items-center justify-center mx-auto space-y-[48px] md:px-[56px] px-[32px] py-[32px] pb-[48px]">
+      <div className="flex flex-col items-center justify-center mx-auto space-y-[48px] md:px-[56px] px-[16px] py-[16px]">
         <SectionTitle
           title="Articles & Publications"
           subtitle="BLOG SECTION"

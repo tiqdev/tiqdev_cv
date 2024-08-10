@@ -2,8 +2,8 @@ import MailButton from "./MailButton";
 
 const ContactContainer = () => {
   return (
-    <div className="max-w-[1200px] w-full mx-auto flex flex-col items-center justify-center bg-transparent ">
-      <div className="flex md:flex-row flex-col items-center justify-between w-full h-min p-[40px] gap-[40px] border-[1px] border-solid border-badge rounded-t-[24px]">
+    <div className="max-w-[1200px] min-w-full mx-auto flex flex-col items-center justify-center bg-transparent">
+      <div className="flex md:flex-row flex-col items-center justify-between w-full h-min md:p-[40px] p-[16px] gap-[40px] border-[1px] border-solid border-badge rounded-t-[24px]">
         <img
           src="/assets/curved.svg"
           className="w-[56px] h-[56px] object-cover"

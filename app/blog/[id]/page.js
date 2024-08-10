@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Container from "@/components/Container";
+import Footer from "@/components/Footer";
 
 // JSON dosyasının yolunu belirtiyoruz
 const JSON_FILE_PATH = path.join(process.cwd(), "data", "blog.json");
@@ -91,14 +92,15 @@ export default async function BlogDetail({ params }) {
   return (
     <Container>
       <div className="flex flex-col items-start max-w-[680px] mx-auto justify-center w-full text-white mt-10">
-        <h1 className="md:text-4xl text-2xl font-bold text-start leading-10 mb-8">
+        <h1 className="md:text-4xl text-2xl font-bold  md:mb-8 md:text-start text-center mb-4 px-4">
           {post.title["__cdata"]}
         </h1>
         <div
-          className="blog_content max-w-[680px] w-full flex flex-col gap-6"
+          className="blog_content max-w-[680px] w-full flex flex-col gap-6 px-4"
           dangerouslySetInnerHTML={{ __html: content }}
         />
       </div>
+      <Footer />
     </Container>
   );
 }
