@@ -1,0 +1,215 @@
+{
+    "rss": {
+      "channel": {
+        "title": {
+          "__cdata": " Stories by Tarık Kaya on Medium "
+        },
+        "description": {
+          "__cdata": " Stories by Tarık Kaya on Medium "
+        },
+        "link": [
+          "https://medium.com/@tiqdev?source=rss-83a391ed3a5c------2",
+          "",
+          ""
+        ],
+        "image": {
+          "url": "https://cdn-images-1.medium.com/fit/c/150/150/1*t10RGGd-HiW2go_Dobkpdw.jpeg",
+          "title": "Stories by Tarık Kaya on Medium",
+          "link": "https://medium.com/@tiqdev?source=rss-83a391ed3a5c------2"
+        },
+        "generator": "Medium",
+        "lastBuildDate": "Sat, 10 Aug 2024 17:21:54 GMT",
+        "webMaster": {
+          "__cdata": " yourfriends@medium.com "
+        },
+        "item": [
+          {
+            "title": {
+              "__cdata": " Web Geliştiriciler İçin Harika Chrome Eklentileri "
+            },
+            "link": "https://medium.com/@tiqdev/web-geli%C5%9Ftiriciler-i%CC%87%C3%A7in-harika-chrome-eklentileri-db9a03856bee?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/db9a03856bee",
+            "category": [
+              {
+                "__cdata": " web-dev-resources "
+              },
+              {
+                "__cdata": " chrome-extension "
+              },
+              {
+                "__cdata": " web-geliştirme "
+              },
+              {
+                "__cdata": " chrome-eklentisi "
+              },
+              {
+                "__cdata": " web-development "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Sat, 23 Mar 2024 13:46:12 GMT",
+            "updated": "2024-03-23T13:47:37.839Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*FHcYMrDyp_ifvAdflh5IjA.png\" /></figure><p>Gün içinde web geliştiricilerin en çok zaman harcadığı araçlardan biri hiç şüphesiz ki tarayıcılarıdır. Özellikle Google Chrome veya Chromium tabanlı bir tarayıcı kullanıyorsanız, kendi sundukları eklentilerle web geliştirme deneyiminizi önemli ölçüde iyileştirebilirsiniz. Bu eklentiler, iş akışınızı optimize etmenize, verimliliği artırmanıza ve geliştirme sürecini daha keyifli hale getirmenize yardımcı olabilir.</p><p>Gelin sizler için seçtiğim eklentilere bir göz atalım,</p><h3>daily.dev</h3><p>daily.dev, en son geliştirici güncellemelerini aramakla uğraşmadan sizi güncel tutan bir platformdur. Yeni bir sekme açtığınızda, size özel ilgi alanlarınıza uygun teknoloji içeriği sunar.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*GwTiraF8KHafMC6AgQczVw.png\" /></figure><h3>Dark Reader</h3><p>Bir geliştirici olarak vaktinizin çoğunu makale veya döküman okuyarak geçiriyorsanız bu eklenti tam size göre. Dark Reader eklentisi web siteleri için anında koyu temalar oluşturarak gece modunu etkinleştirir. Dark Reader parlak renkleri ters çevirerek yüksek kontrast oluşturur ve geceleri okumayı kolaylaştırır.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*03Q6cYCJ9Mro72qzJV0zBg.png\" /></figure><h3>Save to Pocket</h3><p>Pocket’in Chrome eklentisi, web’de bulduğunuz makaleleri, videoları ve diğer her şeyi yakalamak için en kolay, en hızlı yoldur. Bir tıklamayla, topladığınız içerik tüm cihazlarınızda temiz, dikkat dağıtıcı olmayan bir alanda görünür hale gelir — hazır olduğunuzda, evde, işte veya yoldayken okumak için orada.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*nMdfXWtfYmmnTMiLHw7aXw.png\" /></figure><h3>Wappalyzer</h3><p>Wappalyzer, web sitelerinde kullanılan teknolojileri açığa çıkaran platformlar arası bir yardımcı programdır. İçerik yönetim sistemlerini, e-ticaret platformlarını, web frameworkleri, sunucu yazılımlarını, analiz araçlarını ve çok daha fazlasını tespit eder.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*6sBDppPYJarsjgb4dzTlKw.png\" /></figure><h3>JSON Viewer</h3><p>Web geliştiriciler için sunuculardan dönen JSON yanıtlarının düzgün görüntülenmesi ve içeriğinin doğru bir şekilde anlaşılması son derece önemlidir. Ancak, bu veriler genellikle karmaşık ve okunması zor olabilir. Neyse ki, JSON Viewer eklentisi bu sorunları çözmek için burada! Bu eklenti, web geliştiricilerin sunucu yanıtlarını anlamalarını kolaylaştırır ve harika bir deneyim sunar.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*-nP8z09NZaPiDSQZC37Yug.png\" /></figure><h3>CSS Peeper</h3><p>Bir web sitesindeki detayları merak ettiniz mi? Satır yüksekliği, yazı tipi veya bir düğmenin boyutu gibi. Endişelenmeyin, çünkü CSS Peeper işte tam da bu merakınızı giderecek son teknoloji aracı sunuyor. Kodu en kolay şekilde incelemek için sizi yetkilendiriyor. Web’deki nesnelerin, renklerin ve varlıkların gizli CSS stilini keşfedin.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*82RbMyHLVNwPURJ9nK_fng.png\" /></figure><h3>Kapanış</h3><p>Bu eklentiler, web geliştiricilerin işlerini daha verimli ve etkili bir şekilde yapmalarına yardımcı olmak için tasarlanmıştır. <a href=\"https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg\"><strong>Wappalyzer </strong></a>ile web sitelerinde kullanılan teknolojileri tespit edebilir, <a href=\"https://chromewebstore.google.com/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj\"><strong>Save to Pocket</strong></a> ile önemli makaleleri ve içerikleri kolayca kaydedebilirsiniz. <a href=\"https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh\"><strong>Dark Reader</strong></a> ile web sitelerini karanlık modda görüntüleyebilir, daily.dev ile güncel geliştirici içeriğine erişebilirsiniz. <a href=\"https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh\"><strong>JSON Viewer</strong></a> ile web sitelerinden gelen JSON verilerini daha iyi anlayabilir ve <a href=\"https://chromewebstore.google.com/detail/css-peeper/mbnbehikldjhnfehhnaidhjhoofhpehk\"><strong>CSS Peeper</strong></a> ile sitelerin stil bilgilerini kolayca inceleyebilirsiniz.</p><p>Bu eklentileri kullanarak, kodlama deneyiminizi geliştirebilir, web sitelerinin performansını artırabilir ve projelerinizi daha hızlı bir şekilde tamamlayabilirsiniz. Web geliştirme dünyasında başarılı olmak için bu güçlü araçları kullanmayı unutmayın!</p><p>Okuduğunuz için teşekkür ederim. Beni takip etmeyi unutmayın.</p><p><a href=\"https://tiqdev.com\"><strong>tiqdev</strong></a>💛</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=db9a03856bee\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          },
+          {
+            "title": {
+              "__cdata": " Frontend Developer Mülakat Soruları 2023 "
+            },
+            "link": "https://medium.com/@tiqdev/frontend-developer-m%C3%BClakat-sorular%C4%B1-2023-7b588eb7643b?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/7b588eb7643b",
+            "category": [
+              {
+                "__cdata": " react "
+              },
+              {
+                "__cdata": " mülakat-soruları "
+              },
+              {
+                "__cdata": " front-end-development "
+              },
+              {
+                "__cdata": " reactjs "
+              },
+              {
+                "__cdata": " frontend "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Thu, 07 Sep 2023 15:24:56 GMT",
+            "updated": "2024-03-23T13:49:45.428Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*RwbPspxMVu9ZVuIXd2Zsfg.png\" /></figure><p>Herkese merhaba, iş arayışımdan ötürü bu aralar mülakatlara giriyorum ve sorulan soruları elimden geldiğince not almaya çalışıyorum. İlerleyen zamanlarda yeni sorular gelirse onları da sizlerle paylaşırım inşallah. Herkese kolay gelsin.</p><h3>1. React Portal nedir?</h3><p>React Portals, bir bileşenin DOM ağacındaki herhangi bir yere render edilmesine olanak tanır. Normalde React, bileşenleri ebeveyn bileşenin altındaki bir yerde render eder. Ancak bazen, ebeveyn bileşeni DOM ağacının dışındaki bir yere yerleştirmeniz gerekebilir. Bu, özellikle modallar veya gezinme menüleri gibi öğeler için kullanışlıdır. react-dom paketinde createPortal fonksiyonu kullanılarak bir portal oluşturulabilir ve içerik belirtilen başka bir DOM düğümüne taşınabilir.</p><h3>2. React Suspend nedir?</h3><p>React Suspend, React 18&#39;den itibaren yerleşik olarak sunulan bir özelliktir. React Suspend, asenkron verileri yüklerken veya beklenmedik gecikmelerle başa çıkarken yardımcı olan bir yapıdır. Özellikle, React Suspend ile bir bileşen, gerekli veriler yüklenene kadar yedek bir içerik (fallback) gösterebilir ve veriler yüklendikten sonra gerçek içeriği gösterebilir.</p><h3>3. Js Scope nedir?</h3><p>JavaScript’te “scope”, bir değişkenin veya fonksiyonun erişebileceği alanı ifade eder. İki tür scope vardır: global (genel) ve local (yerel). Global scope, tüm kodun erişebildiği en üst düzey kapsamdır. Local scope ise sadece belirli bir fonksiyon veya blok içinde erişilebilir alanı ifade eder.</p><h3>4. Bir React projesinde performansı arttırmak için neler yapılabilir?</h3><p>React uygulamalarının performansını artırmak için şunları yapabilirsiniz:</p><ul><li>Gereksiz yeniden render işlemlerini engellemek için PureComponent veya React.memo kullanmak.</li><li>İşlevsel bileşenler ve hooks kullanarak kodu daha basit ve okunabilir hale getirmek.</li><li>React DevTools gibi araçları kullanarak performans sorunlarını tespit etmek.</li><li>Veri akışını optimize etmek için React.lazy ve Suspense gibi yeni özellikleri kullanmak.</li></ul><h3>5. useMemo ne zaman kullanılır?</h3><p>useMemo, bir değeri sadece belirli bir bağımlılık değiştiğinde yeniden hesaplamak istediğinizde kullanılır. Özellikle hesaplama maliyeti yüksek veya verilerin değişmesi nadir olduğunda kullanışlıdır. Örneğin, bir bileşen içindeki hesaplamaları veya verileri önbellekte tutmak için kullanılabilir. Bağımlılık dizisi olarak verilen bir dizi, bu değerin yeniden hesaplanmasını tetikler.</p><h3>6. Js forEach ve map fonksiyonlarının farkı nedir?</h3><p>forEach ve map her ikisi de bir diziyi döngüsel olarak işlemek için kullanılan diziyi dönme yöntemleridir. Ancak farkları vardır. forEach, dizi üzerinde işlem yaparken yeni bir dizi oluşturmaz ve işlev sonuçları döndürmez. map ise her eleman için bir işlevi çağırır ve bu işlevin sonuçlarını yeni bir dizi olarak döndürür. Bu nedenle, map kullanarak dizi üzerinde işlem yaparsanız, orijinal diziyi değiştirmezsiniz, ancak yeni bir dizi elde edersiniz.</p><h3>7. React Server Components nedir?</h3><p>React Server Components, React ekosisteminin sunucu tarafında çalışan, performansı artırmayı amaçlayan bir teknolojisidir. Sunucu tarafında işlenen bileşenler, performansı artırır, veri yönetimini kolaylaştırır ve SEO’yu iyileştirir. Şu an için deneysel bir özelliktir.</p><h3>8. React Prod Drilling nedir?</h3><p>Prop drilling, React uygulamalarında verileri ve işlevleri bileşenler arasında iletmek için kullanılan bir yöntemdir. Bileşenler arasındaki hiyerarşide yer alan bir bileşen, alt bileşenlerine veri veya işlevleri iletmek için bu verileri ve işlevleri bir dizi props olarak iletebilir. Ancak bu yöntem, verilerin ve işlevlerin çok sayıda ara bileşenden geçmesine ve kodun karmaşıklaşmasına yol açabilir. Prop drilling&#39;i azaltmak veya engellemek için Redux gibi yönetim araçları veya React Context API gibi teknikler kullanılabilir.</p><h3>9. Semantic HTML Etiketleri nelerdir?</h3><p>Semantik HTML etiketleri, belgenin yapısını ve içeriğini daha anlamlı ve anlaşılır hale getiren HTML etiketleridir. Örnek semantik etiketler arasında &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, &lt;aside&gt;, &lt;footer&gt;, &lt;main&gt; vb. bulunur. Bu etiketler, belgenin içeriğini daha iyi anlamak, tarayıcılar ve erişilebilirlik araçları için daha iyi bir anlayış sağlamak ve SEO için daha iyi indeksleme sağlamak amacıyla kullanılır.</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=7b588eb7643b\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          },
+          {
+            "title": {
+              "__cdata": " Using useRef in React "
+            },
+            "link": "https://medium.com/@tiqdev/using-useref-in-react-598d4e18ef56?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/598d4e18ef56",
+            "category": [
+              {
+                "__cdata": " useref-hook "
+              },
+              {
+                "__cdata": " reactjs "
+              },
+              {
+                "__cdata": " react "
+              },
+              {
+                "__cdata": " react-hook "
+              },
+              {
+                "__cdata": " useref "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Sat, 12 Aug 2023 17:00:50 GMT",
+            "updated": "2023-08-12T17:00:50.544Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"Using useRef in React\" src=\"https://cdn-images-1.medium.com/max/1024/1*CBu9wUsVZPcVSUoO8GhPPg.png\" /></figure><p>Hello, friends! In this article, I will explain what the useRef hook is in React applications and how to use it. If you’re ready, let’s get started.</p><h3>What is useRef?</h3><p>In React applications, the useRef hook is used to access DOM elements and to store the previous value of states. It is especially useful for scenarios like getting the value of input fields or storing the previous value.</p><h3>1- Basic Usage (Reference)</h3><p>Explaining basic usage with an example would be more illustrative.</p><p>Let’s start by creating a simple component and adding an input and a button inside it. Then, let’s import the useRef hook from the React library, and using this hook, create an inputRef reference. Next, let&#39;s attach it to the input element. Now, let&#39;s define a function for the button that logs the value of the inputRef variable to the console.</p><p>One thing to note here is that in some cases, inputRef.current might be null. This could happen if the DOM element has not yet been created or has been deleted. Therefore, we first check if this value exists, and if it&#39;s not null, we log the current value of inputRef to the console.</p><iframe src=\"\" width=\"0\" height=\"0\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/b12179d9a725e4ede04be8b6f3cbd6ea/href\">https://medium.com/media/b12179d9a725e4ede04be8b6f3cbd6ea/href</a></iframe><p>As you can see, our component is this simple. When tested, we can see the value we entered in the input field in the console using the button.</p><h3>2- Storing Previous Values</h3><p>If we explain this usage with another example, we want to cache the value returned from an API request using useRef. This way, we prevent the component from making the same API request repeatedly when it’s re-rendered.</p><iframe src=\"\" width=\"0\" height=\"0\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/f8ad3188598c6ee7a2dc105933c77c42/href\">https://medium.com/media/f8ad3188598c6ee7a2dc105933c77c42/href</a></iframe><p>Just like before, we import the useRef, useEffect, and useState hooks from the React library. Then, we create a simple list view and initialize a posts state that starts as empty. When the component is first rendered, useEffect will run. If we don&#39;t have a cacheData ref, we send an API request and cache the result using cacheRef.current[&#39;cachedData&#39;] = jsonPostData. Later, to present the data to the user in a list view, we set the posts state. From then on, if the component is re-rendered, it will check if there&#39;s cached data. If there is, it will set the state with that value. If not, it will make an API request and cache the result.</p><p>In summary, we’ve created a caching object using the useRef hook to store API data. If the cached data exists in previous requests, it’s used directly; otherwise, we retrieve the data from the API and store it in the cache. This way, we achieve our goal, and we have the same data without the need to repeatedly send API requests.</p><h3>Conclusion</h3><p>So, friends, after a long break, I wanted to address a simple yet important topic for you. I hope I haven’t made any mistakes in my explanation or in the content. If you find any errors, please don’t hesitate to let me know. You can also leave your questions in the comments or reach out to me at <a href=\"mailto:tariqkaya24@gmail.com\">tariqkaya24@gmail.com</a>.</p><p>Thank you all very much.</p><p>Until the next article…</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=598d4e18ef56\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          },
+          {
+            "title": {
+              "__cdata": " React useRef Kullanımı "
+            },
+            "link": "https://medium.com/@tiqdev/react-useref-kullan%C4%B1m%C4%B1-2a1baaa3beea?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/2a1baaa3beea",
+            "category": [
+              {
+                "__cdata": " react "
+              },
+              {
+                "__cdata": " useref-hook "
+              },
+              {
+                "__cdata": " useref "
+              },
+              {
+                "__cdata": " react-hook "
+              },
+              {
+                "__cdata": " reactjs "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Sat, 12 Aug 2023 13:43:55 GMT",
+            "updated": "2023-08-12T13:43:55.919Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/1024/1*CBu9wUsVZPcVSUoO8GhPPg.png\" /></figure><p>Selam arkadaşlar! Bu yazıda, React uygulamalarında useRef hook’un ne olduğunu ve nasıl kullanıldığını sizlere anlatacağım. Hazırsanız, başlıyoruz.</p><h3>useRef Nedir?</h3><p>React uygulamalarında, useRef hook’u DOM elementlerine erişim sağlamak ve statelerin önceki değerini saklamak için kullanılır. Özellikle, input alanlarının değerini almak veya önceki değerini saklamak gibi durumlar için oldukça kullanışlıdır.</p><h3>1- Temel Kullanım (Referans)</h3><p>Temel kullanımı bir örnek ile açıklamak daha iyi olacaktır.</p><p>Öncelikle basit bir component oluşturalım ve içerisine input ve button ekleyelim. Daha sonra useRef hook’unu React kütüphanesinden import edelim, ardından bu hook’u kullanarak bir inputRef referansı oluşturalım. Sonrasında elimizde bulunan inputa bunu bağlayalım. Şimdi elimizdeki buttona bir fonksiyon tanımlayıp bu fonksiyon içerisinde inputRef değişkeninin içerisindeki değeri console&#39;a yazdıralım.</p><p>Burada dikkat edilmesi gereken konu, bazı durumlarda inputRef.current null gelebilir. Bunun nedeni, DOM elementinin henüz oluşmamış veya silinmiş olabileceğindendir. Bu yüzden önce bu değerin var mı diye kontrol ediyoruz, eğer null değilse console&#39;a inputRef&#39;in şu anki değerini yazdıralım.</p><iframe src=\"\" width=\"0\" height=\"0\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/b12179d9a725e4ede04be8b6f3cbd6ea/href\">https://medium.com/media/b12179d9a725e4ede04be8b6f3cbd6ea/href</a></iframe><p>Evet, gördüğünüz gibi componentimiz bu kadar. Test ettiğimizde, input alanına girdiğimiz değeri button yardımıyla console’da görebiliyoruz.</p><h3>2- Önceki Değerleri Saklama</h3><p>Bu kullanımı da bir örnek ile açıklayacak olursak, bir API isteğinden dönen değeri useRef ile önbellekleyerek, component render edildiğinde tekrar tekrar API isteği atmamasını sağlamak istiyoruz.</p><iframe src=\"\" width=\"0\" height=\"0\" frameborder=\"0\" scrolling=\"no\"><a href=\"https://medium.com/media/f8ad3188598c6ee7a2dc105933c77c42/href\">https://medium.com/media/f8ad3188598c6ee7a2dc105933c77c42/href</a></iframe><p>Önceden olduğu gibi useRef, useEffect ve useState hook’larını React kütüphanesinden import ettik ve sonrasında basit bir liste görünümü oluşturup elimizde ilk anda boş olan bir posts state&#39;i oluşturduk. Component ilk render edildiğinde useEffect çalışacak ve eğer elimizde cacheData diye bir ref yoksa, API isteği atarak dönen sonucu cacheRef.current[&#39;cachedData&#39;] = jsonPostData ile önbelleklemiş olduk. Daha sonrasında component içerisinde bir liste görünümünde kullanıcıya sunmak için elimizde bulunan posts state&#39;ini set ettik. Bundan sonra eğer component tekrar render edilirse, önce önbelleğe alınmış veri var mı diye bakacak ve eğer varsa state&#39;i o değerle set edecek. Eğer yoksa API isteği atılacak ve dönen değer önbelleğe alınacak.</p><p>Özetle, useRef hook’u ile bir önbellek nesnesi oluşturduk ve API verilerini bu önbellekte sakladık. API verileri önceki isteklerde önbellekte varsa, doğrudan kullanılır; aksi takdirde API’den verileri alıp önbelleğe ekleriz. Bu sayede istediğimiz şeyi başarmış olduk ve artık API isteğini tekrar tekrar atmamıza gerek kalmadan aynı verilere sahip olduk.</p><h3>Kapanış</h3><p>Evet, arkadaşlar. Uzun bir aranın ardından basit ama önemli bir konuyu sizler için ele almak istedim. Umarım bir yanlışım olmamıştır anlatımda veya konu içeriğinde. Bir yanlış bulursanız lütfen belirtmekten çekinmeyin. Sorularınız için de yorum atabilir veya bana <a href=\"mailto:tariqkaya24@gmail.com\">tariqkaya24@gmail.com</a> adresinden ulaşabilirsiniz.</p><p>Hepinize çok teşekkür ederim.</p><p>Bir sonraki yazıda görüşmek üzere…</p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=2a1baaa3beea\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          },
+          {
+            "title": {
+              "__cdata": " FLUTTER 101 / Otomatik Bir Şekilde Uygulama Simgesi Oluşturma (Hem Android Hem IOS için) "
+            },
+            "link": "https://medium.com/@tiqdev/flutter-101-otomatik-bir-%C5%9Fekilde-uygulama-simgesi-olu%C5%9Fturma-hem-android-hem-ios-i%C3%A7in-8cc8b1b0665f?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/8cc8b1b0665f",
+            "category": [
+              {
+                "__cdata": " launcher-icon "
+              },
+              {
+                "__cdata": " flutter "
+              },
+              {
+                "__cdata": " android "
+              },
+              {
+                "__cdata": " ios "
+              },
+              {
+                "__cdata": " flutter-package "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Mon, 17 Aug 2020 09:05:37 GMT",
+            "updated": "2020-08-17T09:05:37.552Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/640/0*GWlSgeewIyR_DhYA.png\" /></figure><h3>Flutter Uygulama Simgesi Oluşturma</h3><p>Herkese merhaba, bu yazımızda uygulamalarımızın simgesini tek bir görsel ile nasıl oluşturacağımızı anlatacağım. Normalde native olarak bakacak olursak bir den fazla işlem gerektiren bu olayda bir paket yardımıyla bu işi kısa sürede ve tek bir görsel ile halledeceğiz. Hazırsanız başlayalım…</p><p>Yukarıda bahsettiğim gibi bu işlem için bir paket kullanmamız gerekiyor, bu paket ‘’flutter_launcher_icons”. Bu paketi pub.dev sayfasına gidip arama kısmına yazarak açılan sayfada da installing kısmından dependencies ın altındaki kodu alıp kendi pubspec.yaml dosyamızın içerisinde <strong>“dev_dependencies”</strong> alanının en altına yapıştıralım.</p><figure><img alt=\"flutter_launcher_icons package\" src=\"https://cdn-images-1.medium.com/max/640/0*fUTFtgYHPWH2QxtH.png\" /></figure><figure><img alt=\"pubspec.yaml\" src=\"https://cdn-images-1.medium.com/max/623/0*v1I0_LiKixivasqY.png\" /></figure><p>Evet bu işlemden sonra gerekli görseli uygulama klasörünün içerisine atalım. Bunun için assets adında bir klasör açıp içerisinde logo adında başka bir klasör açalım ve uygulama görselini buraya atalım.</p><p>Eğer benim hazırladığım görseli kullanmak isterseniz <a href=\"https://www.blogger.com/u/2/blog/post/edit/9199738742514098368/214318104735659819#\">buradan</a> indirebilirsiniz.</p><p>Klasörleri açıp içerisine görseli attıktan sonra yeniden pubspec.yaml dosyasına gelip assets klasörünü belirtmemiz gerekiyor. Bunun için dev_dependencies altında flutter kısmına en alt kısma benim yaptığım gibi ekliyoruz. Eğer logo değilde başka bir klasör açıp koyduysanız ona göre o kısmı değiştirmeniz gerekiyor.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/367/0*5ojbr5VCDRzhj2T8.png\" /></figure><p>Bu işlemlerden sonra herhangi bir sıkıntı yaşanmaması için bu paketleri getirmemiz gerekiyor. Getirme işlemi için kullandığınız ide nin terminalini açıp flutter pub get yazmanız gerekiyor. Herhangi bir sorun çıkmaz ise devam edebiliriz.</p><p>Son aşamaya geldik, şimdi aşağıda belirttiğim kodu alıp dev_dependencies kısmının bitimine yazıyoruz.</p><figure><img alt=\"flutter_icons\" src=\"https://cdn-images-1.medium.com/max/395/0*cnCmoWThYfOWXEeK.png\" /></figure><p>Burada her bir platform için logomuzun bulunduğu yolu verdik ve hangi platformlarda simgenin oluşturulmasını istiyorsak o platformu true yaptık. Burada da gördüğünüz üzere iki platform için de iki farklı simge oluşturabilirsiniz ama bu yazı için gerekli değil o yüzden sizlerle paylaştığım görselin yolunu verip true olarak belirttim.</p><p>Son olarak terminali bir daha açarak flutter pub run flutter_launcher_icons:main komutunu çalıştırarak işlemin tamamlanmasını ve simgelerin oluşturulmasını bekliyoruz.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/640/0*gQtiMnvwBB9Vmztf.png\" /></figure><p>Evet işlem sonucunda bu ekranı sizde alıyorsanız işlem tamamlanmış uygulamamıza simgeler eklenmiş demektir. Hadi test edelim…</p><figure><img alt=\"flutter_tiq\" src=\"https://cdn-images-1.medium.com/max/243/0*nW6ldK5n-b2fYoqA.png\" /></figure><p>Evet işlem tamamlandı gördüğünüz üzere uygulama simgemiz bizim belirlediğimiz halini aldı.</p><h4>Kapanış</h4><p>Evet arkadaşlar uzun bir aranın ardından basit ama önemli bir konuyu sizler için ele almak istedim. Umarım bir yanlışım olmamıştır anlatımda yada konu içeriğinde bir yanlış bulursanız lütfen belirtmekten çekinmeyin, sorularınız içinde yorum atabilir bana iletişim kısmındaki adreslerden ulaşabilirsiniz.</p><p>Hepinize çok teşekkür ederim.</p><p>Bir sonraki yazıda görüşmek üzere…</p><h4>Kaynaklar</h4><ul><li><a href=\"https://www.blogger.com/u/2/blog/post/edit/9199738742514098368/214318104735659819#\">https://pub.dev/packages/flutter_launcher_icons</a></li></ul><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=8cc8b1b0665f\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          },
+          {
+            "title": {
+              "__cdata": " FLUTTER ListView.builder Kullanımı "
+            },
+            "link": "https://medium.com/@tiqdev/flutter-listview-builder-kullan%C4%B1m%C4%B1-1e1012ff7af0?source=rss-83a391ed3a5c------2",
+            "guid": "https://medium.com/p/1e1012ff7af0",
+            "category": [
+              {
+                "__cdata": " flutter "
+              },
+              {
+                "__cdata": " flutter-listview "
+              },
+              {
+                "__cdata": " flutter-widget "
+              }
+            ],
+            "creator": {
+              "__cdata": " Tarık Kaya "
+            },
+            "pubDate": "Wed, 01 Jul 2020 13:02:42 GMT",
+            "updated": "2024-08-10T17:21:43.371Z",
+            "encoded": {
+              "__cdata": " <figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/640/1*RlURp0a-PiU8XKRIvWH9FQ.png\" /></figure><p>Herkese merhaba, bu yazımızda Flutter da verileri listeleme işinin nasıl yapıldığını basit bir şekilde anlatıyor olacağım. Hazırsanız başlayalım…</p><h3>FLUTTER ListView.builder</h3><p>Bildiğiniz üzere mobil uygulamalarda verileri listeleme işleminin çokça kullanıldığını görürüz. Bu işlemi flutterda gerçekleştirmek ise oldukça basit. Neden, çünkü bunun da bir widget ı var!</p><p>Flutterda her şey birer widget!</p><p>Bu widget ın adı başlıkta da gördüğünüz üzere ListView Widget. Widget hakkında ayrıntılı bilgiyi flutter ın kendi dökümantasyonunda bulabilirsiniz. Peki nasıl kullanılıyor bu ListView ?</p><h3>FLUTTER ListView.builder Kullanımı</h3><p>Öncelikle yeni bir proje oluşturup gereksiz kısımları silerek elimizde boş bir material app bırakıyoruz.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/475/0*ayivFEvG9y2uMO2W.png\" /></figure><p>Daha sonrasında proje dizinindeki lib klasörünün içerisine bir dart file oluşturuyoruz. Daha sonrasında bu dosyanın içerisine girip bir statefull widget oluşturuyoruz.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/622/0*r_XnsXXaYfDEbwL0.png\" /></figure><p>Evet şimdi elimizde boş bir widget var fakat bunun yapısını oluşturmadan evvel yapmamız gereken bir işlem daha var. Öncelikle tekrardan lib klasörünün içerisine bir dosya daha oluşturup buna Post adını verelim. Sonrasında bu dosya içerisinde bir class tanımlayıp bu class a iki tane özellik verelim. Biri title diğeri de icon olsun.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/404/0*C7WWULILgcrjo0aP.png\" /></figure><p>Evet bu dosyayı neden oluşturduk? Bir ListView.builder da belli bir listeyi göstermek istersek eğer elimizde bir liste olması gerek. Bu listede post objeleri yer alacak ve bunu biz kendimiz oluşturacağız.</p><p>Gelelim widget ımızın içerisine, burada bir List&lt;Post&gt; tanımlaması yapıp içerisine bir kaç post objesi atalım.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/500/0*FZsIe91U4RM71CAK.png\" /></figure><p>Elimizde artık basit bir veri var ve bunu arayüzümüzde gösterebiliriz. Hemen Widget build fonksiyonunun içerisine girip Container ın içerisine girip gerekli width ve height ayarlamalarını yapalım. Daha sonra Container ın child kısmına ListView.builder() yazalım. İçerisinde hangi listeyi listeleyecek isek onu tanımlamamız gerekiyor. Bunun için içerisindeki itemBuilder kısmına gelip (context, index) tanımlamasını yapıp süslü parantezlerir açalım.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/500/0*7ynT4CaWoSKulmWl.png\" /></figure><p>Evet adından da anlaşılacağı üzere itemBuilder bizim listemizdeki elemanları arayüzde göstereceğimiz kısım oluyor. Burada bizden bir widget return etmemiz isteniyor. Biz basit olsun diye bir Card widget ı oluşturalım. Bu widget child olarak içerisine bir ListTile widget ı alsın. Bu widget ta flutter içerisinde material library de hazır olarak bulunduğu için işimizi oldukça kolaylaştıracak.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/500/0*rdWhfJ-LD79LOx-m.png\" /></figure><p>Evet şimdi en önemli kısma geliyoruz. Gördüğünüz üzere henüz herhangi bir veriyi arayüzde göstermedik. Bunun ilk adımı olarak Post listemizde yer alan iconları bu Card widget ının sol kısmında göstermek isteyelim. Bunun için ListTile widget ı içerisinde yer alan leading propertysine gelip bir Icon widget ı oluşturalım. Peki elimizde var olan icon türünü nasıl bu Icon widget ının içerisinde göstereceğiz. Az evvel yazdığımız itemBuilder içerisindeki index kısmına dikkat edin, bu index listview içerisinde yer alacak elemanların index sayısına tekabül ediyor. Yani bizim işimize şöyle yarıyor; ListView içerisindeki 0. index post listesinin içerisindeki 0. indexten değerleri alacak. Bunu da şu şekilde yaparız. Icon(posts[index].icon) ve bu ListTile içerisindeki title propertysinde de Text(post[index].title) şeklinde kullanırız.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/601/0*OUZtXT_Gx3sg2ZOr.png\" /></figure><p>Evet widget ımızın son hali bu şekilde oldu. Daha sonrasında bu widget ı uygulamanın ana sayfasında göstermek için main.dart içerisindeki Scaffold widgetına body olarak vermemiz gerekiyor.</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/520/0*B6VjTHaYAZZUaHRU.png\" /></figure><p>Evet şimdi sıra geldi test etmeye. Çalıştıralım bakalın ne çıkacak karşımıza…</p><figure><img alt=\"\" src=\"https://cdn-images-1.medium.com/max/408/0*GP8pwEdxMk_nkBb7.png\" /></figure><p>Evet body kısmındaki listeyi beraber yaptık onun dışındakiler benim başka denemelerimden dolayı var onlara takılmayın lütfen.</p><h3>Kapanış</h3><p>Evet arkadaşlar uzun zamandır bir yazı paylaşmıyordum nasıl yazdığımı bile unutmuş olabilirim hata yapmış olabilirim. Herhangi bir hata yapmışsam eğer lütfen kusuruma bakmayın ve bu hatayı bana mutlaka bildirin ki insanlara yanlış aktarmış olmayayım. Zamanla bu tip Flutter paylaşımları yapmayı düşünüyorum. Instagramda da hesap açtım orada ise daha kısa tutorial lar atıyorum çeşitli konular hakkında…</p><p>Hepinize çok teşekkür ederim bir sonraki yazımda görüşmek üzere.</p><p>Instagram : <a href=\"https://www.instagram.com/tiqdev.eth/\">@tiqdev.eth</a></p><img src=\"https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=1e1012ff7af0\" width=\"1\" height=\"1\" alt=\"\"> "
+            }
+          }
+        ]
+      }
+    }
+  }
