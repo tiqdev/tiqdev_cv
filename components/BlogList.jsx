@@ -61,7 +61,7 @@ export default async function BlogList() {
             <Link
               key={post.id}
               href={`/blog/${post.id}`}
-              className="md:max-w-[368px] md:flex-1 w-full border-[1px] border-solid border-badge bg-transparent hover:bg-badge duration-300 transition-colors flex flex-col items-start justify-start p-[16px] gap-[12px] rounded-[24px] font-inter cursor-pointer"
+              className="md:max-w-[368px] md:flex-1 w-full border-[1px] border-solid border-badge bg-primary hover:bg-badge duration-300 transition-colors flex flex-col items-start justify-start p-[16px] gap-[12px] rounded-[24px] font-inter cursor-pointer"
             >
               <div className="w-full aspect-[1.5/1] object-cover rounded-[8px]">
                 <div className="w-full h-full bg-secondary/20 rounded-md flex items-center justify-center">

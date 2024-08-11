@@ -1,6 +1,6 @@
 const SkillItem = ({ title, description, type, icon }) => {
   return (
-    <div className="md:max-w-[520px] w-full border-[1px] border-solid border-badge bg-transparent flex flex-row space-x-[24px] items-start justisfy-start p-[32px] rounded-[24px] font-inter">
+    <div className="md:max-w-[520px] w-full border-[1px] border-solid bg-primary border-badge flex flex-row space-x-[24px] items-start justisfy-start p-[32px] rounded-[24px] font-inter">
       <img
         src={`/assets/${icon}.svg`}
         alt="quote"

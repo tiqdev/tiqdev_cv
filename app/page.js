@@ -24,7 +24,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-primary relative">
+    <main className="flex min-h-screen flex-col items-center relative">
       <Container>
         <DynamicIsland />
         <HeroContainer />

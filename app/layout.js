@@ -6,20 +6,21 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-6JZ2SWK6KN"></Script>
+        <Script
+          strategy="lazyOnload"
+          src="https://www.googletagmanager.com/gtag/js?id=G-6JZ2SWK6KN"
+        ></Script>
         <Script id="ga-script" strategy="lazyOnload">
-          {
-            `
+          {`
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments);}
            gtag('js', new Date());
          
            gtag('config', 'G-6JZ2SWK6KN');
-          `
-          }
+          `}
         </Script>
       </head>
-      <body>
+      <body className="bg-dots-pattern">
         <Navbar />
         {children}
       </body>
