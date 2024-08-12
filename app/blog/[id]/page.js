@@ -3,6 +3,7 @@ import path from "path";
 import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import { openGraphImage } from "../../shared-metadata";
+import { TracingBeam } from "../../../components/ui/tracing-beam";
 
 // JSON dosyasının yolunu belirtiyoruz
 const JSON_FILE_PATH = path.join(process.cwd(), "data", "blog.json");
@@ -92,17 +93,19 @@ export default async function BlogDetail({ params }) {
   const content = post.encoded["__cdata"];
 
   return (
-    <Container>
-      <div className="flex flex-col items-start max-w-[680px] mx-auto justify-center w-full text-white mt-10">
-        <h1 className="md:text-4xl text-2xl font-bold  md:mb-8 md:text-start text-center mb-4 px-4">
-          {post.title["__cdata"]}
-        </h1>
-        <div
-          className="blog_content max-w-[680px] w-full flex flex-col gap-6 px-4"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      </div>
-      <Footer />
-    </Container>
+    <TracingBeam>
+      <Container>
+        <div className="flex flex-col items-start max-w-[680px] mx-auto justify-center w-full text-[#D8D8D8] mt-10">
+          <h1 className="md:text-4xl text-2xl font-bold  md:mb-8 md:text-start text-center mb-4 px-4">
+            {post.title["__cdata"]}
+          </h1>
+          <div
+            className="blog_content max-w-[680px] w-full flex flex-col gap-6 px-4"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+        </div>
+        <Footer />
+      </Container>
+    </TracingBeam>
   );
 }

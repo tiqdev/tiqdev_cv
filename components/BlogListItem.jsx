@@ -17,7 +17,7 @@ const BlogListItem = ({ blog }) => {
         alt={blog.title}
         className="w-full aspect-[1.5/1] object-cover rounded-[8px]"
       />
-      <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-white">
+      <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-[#D8D8D8]">
         {blog.title}
       </h3>
       <div className="flex flex-row items-center justify-center gap-[8px]">

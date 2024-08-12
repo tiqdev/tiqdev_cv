@@ -68,7 +68,7 @@ const DynamicIsland = () => {
                 }}
                 transition={{ duration: 0.1, delay: 0 }}
                 exit={{ opacity: 0, x: -10 }}
-                className="text-[14px] whitespace-nowrap font-normal text-white leading-[20px] mr-[12px]"
+                className="text-[14px] whitespace-nowrap font-normal text-[#D8D8D8] leading-[20px] mr-[12px]"
               >
                 The Winter
               </motion.span>
@@ -80,7 +80,7 @@ const DynamicIsland = () => {
                 }}
                 transition={{ duration: 0.1, delay: 0 }}
                 exit={{ opacity: 0, x: -10 }}
-                className="text-[12px] whitespace-nowrap text-white leading-[16px] mr-[12px]"
+                className="text-[12px] whitespace-nowrap text-[#D8D8D8] leading-[16px] mr-[12px]"
               >
                 Balmorhea
               </motion.span>
@@ -92,7 +92,7 @@ const DynamicIsland = () => {
                 }}
                 transition={{ duration: 0.1, delay: 0 }}
                 exit={{ opacity: 0 }}
-                className="text-[12px] whitespace-nowrap font-medium text-white leading-[16px] absolute top-3 w-full"
+                className="text-[12px] whitespace-nowrap font-medium text-[#D8D8D8] leading-[16px] absolute top-3 w-full"
               >
                 {isPlaying ? " the winter." : "for relax."}
               </motion.span>
@@ -104,7 +104,7 @@ const DynamicIsland = () => {
                 }}
                 transition={{ duration: 0.1, delay: 0}}
                 exit={{ opacity: 0}}
-                className="text-[12px] whitespace-nowrap font-medium text-white leading-[16px] -right-12 absolute top-3"
+                className="text-[12px] whitespace-nowrap font-medium text-[#D8D8D8] leading-[16px] -right-12 absolute top-3"
                 style={ isPlaying ? {
                   display:"none"
                 } : null}

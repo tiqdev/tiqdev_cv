@@ -7,7 +7,7 @@ const SkillItem = ({ title, description, type, icon }) => {
         className="w-[40px] h-[40px] "
       />
       <div className="flex flex-col items-start justify-start">
-        <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-white">
+        <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-[#D8D8D8]">
           {title}
         </h3>
         <span className="text-[14px] text-grey font-normal leading-[20px] -tracking-[0.006em] mt-[8px]">

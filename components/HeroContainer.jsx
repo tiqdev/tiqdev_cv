@@ -49,7 +49,7 @@ const HeroContainer = () => {
               <h3 className="text-grey text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
                 Title
               </h3>
-              <span className="text-white text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
+              <span className="text-[#D8D8D8] text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
                 Frontend Dev.
               </span>
             </div>
@@ -103,7 +103,7 @@ const HeroContainer = () => {
               <h3 className="text-grey text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
                 Based In
               </h3>
-              <span className="text-white text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
+              <span className="text-[#D8D8D8] text-[28px] leading-[36px] -tracking-[0.03em] font-[500]">
                 Bursa, Turkey
               </span>
             </div>

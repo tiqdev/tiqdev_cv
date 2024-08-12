@@ -72,7 +72,7 @@ export default async function BlogList() {
                   />
                 </div>
               </div>
-              <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-white">
+              <h3 className="text-[20px] font-[500] leading-[28px] -tracking-[0.01em] text-[#D8D8D8]">
                 {post.title}
               </h3>
               <div className="flex flex-row items-center justify-center gap-[8px] mt-auto">

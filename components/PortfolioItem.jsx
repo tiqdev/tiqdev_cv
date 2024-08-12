@@ -7,7 +7,7 @@ const PortfolioItem = ({ title, role, link, image }) => {
         <div className="w-[100px] h-[100px] absolute  top-[-20px] right-[-20px] rounded-full bg-secondary blur-[80px] opacity-0 group-hover:opacity-100 group-hover:top-[20px] transition-all duration-500 group-focus:opacity-100 z-10"></div>
         <div className="flex flex-row w-full justify-between items-center px-[12px] relative z-20">
           <div className="flex flex-col">
-            <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-white">
+            <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-[#D8D8D8]">
               {title}
             </h3>
             <h4 className="text-[16px] leading-[24px] -tracking-[0.011em] text-grey">

@@ -37,7 +37,7 @@ const AboutContainer = () => {
           </div>
           <div className="flex flex-col space-y-[32px] md:max-w-[308px] w-full md:items-start items-center">
             <div className="flex flex-col space-y-[12px] md:items-start justify-start  items-center">
-              <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-white">
+              <h3 className="text-[24px] font-[500] leading-[32px] -tracking-[0.02em] text-[#D8D8D8]">
                 Tarık Kaya
               </h3>
               <p className="text-[16px] text-grey md:text-left text-center leading-[22px] font-inter font-normal -tracking-[0.015em] mb-[16px]">
